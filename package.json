@@ -2,6 +2,7 @@
   "name": "onchain-searcher",
   "version": "1.0.0",
   "description": "Fast on-chain searcher: transfers, contracts, token names, ENS and classification",
+  "type": "module",
   "main": "scan.js",
   "scripts": {
     "start": "node scan.js"
@@ -12,3 +13,4 @@
     "p-map": "^5.5.0"
   }
 }
+
