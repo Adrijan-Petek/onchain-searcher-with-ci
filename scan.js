@@ -5,8 +5,8 @@ import yargs from "yargs/yargs";
 import { hideBin } from "yargs/helpers";
 import pMap from "p-map";
 
-const ERC20_TRANSFER_TOPIC = ethers.Id("Transfer(address,address,uint256)");
-const ERC721_TRANSFER_TOPIC = ethers.Id("Transfer(address,address,uint256)");
+const ERC20_TRANSFER_TOPIC = ethers.id("Transfer(address,address,uint256)");
+const ERC721_TRANSFER_TOPIC = ethers.id("Transfer(address,address,uint256)");
 
 const argv = yargs(hideBin(process.argv))
   .option("rpc", { type: "string", demandOption: true })
