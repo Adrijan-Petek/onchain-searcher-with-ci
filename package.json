@@ -1,0 +1,14 @@
+{
+  "name": "onchain-searcher",
+  "version": "1.0.0",
+  "description": "Fast on-chain searcher: transfers, contracts, token names, ENS and classification",
+  "main": "scan.js",
+  "scripts": {
+    "start": "node scan.js"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "yargs": "^17.7.2",
+    "p-map": "^5.7.0"
+  }
+}
