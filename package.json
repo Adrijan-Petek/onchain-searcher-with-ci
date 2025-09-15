@@ -9,6 +9,6 @@
   "dependencies": {
     "ethers": "^6.8.0",
     "yargs": "^17.7.2",
-    "p-map": "^5.7.0"
+    "p-map": "^5.5.0"
   }
 }
